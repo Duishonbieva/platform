@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Платформа для цифрового предпринимательства</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Цифровое предпринимательство для всех</h1>
+            <nav>
+                <ul>
+                    <li><a href="#education">Обучение</a></li>
+                    <li><a href="#tools">Инструменты</a></li>
+                    <li><a href="#community">Сообщество</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Образовательные материалы</h2>
+            <p>Учитесь создавать и развивать свой бизнес с нуля. На нашем сайте доступны бесплатные онлайн-курсы и видеоматериалы.</p>
+            <button onclick="window.location.href='https://example.com/courses'">Перейти к курсам</button>
+        </div>
+    </section>
+
+    <section id="tools" class="section">
+        <div class="container">
+            <h2>Инструменты для бизнеса</h2>
+            <p>Мы предоставляем доступ к инструментам для создания сайта, маркетинга и продаж. Все, что нужно для старта вашего бизнеса.</p>
+            <button onclick="window.location.href='https://example.com/tools'">Использовать инструменты</button>
+        </div>
+    </section>
+
+    <section id="community" class="section">
+        <div class="container">
+            <h2>Сообщество</h2>
+            <p>Подключитесь к нашему сообществу предпринимателей, делитесь опытом и находите партнёров.</p>
+            <button onclick="window.location.href='https://example.com/community'">Присоединиться к сообществу</button>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Есть вопросы? Напишите нам.</p>
+            <form action="submit_contact_form.php" method="POST">
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Ваш Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Платформа для цифрового предпринимательства. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
